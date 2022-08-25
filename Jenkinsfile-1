@@ -5,8 +5,8 @@ pipeline {
     stage('Hello') {
       steps {
         bat '''
-          ansible --version
-          python3 --version
+          mvn --version
+          java --version
           
         '''
       }
